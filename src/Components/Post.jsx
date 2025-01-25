@@ -18,7 +18,7 @@ function Post() {
 
   return (
     <div className='container'>
-        
+        <h1 className='heading'>Simple Pagination app</h1>
         <div className='Post-container'>
                 {
                     data.map((elem)=>{
